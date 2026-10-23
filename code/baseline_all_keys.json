@@ -1,0 +1,17 @@
+
+{
+    "HKCU_Run": {
+        "SampleUserApp": {
+            "data": "C:\\Example\\sample.exe",
+            "type": 1
+        }
+    },
+    "HKCU_RunOnce": {},
+    "HKLM_Run": {
+        "SampleSystemApp": {
+            "data": "C:\\Example\\system.exe",
+            "type": 1
+        }
+    },
+    "HKLM_RunOnce": {}
+}

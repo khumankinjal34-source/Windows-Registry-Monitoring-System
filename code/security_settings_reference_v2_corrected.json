@@ -1,0 +1,46 @@
+{
+    "Defender_DisableAntiSpyware": {
+        "status": "NOT_FOUND"
+    },
+    "Defender_DisableRealtimeMonitoring": {
+        "status": "NOT_FOUND"
+    },
+    "Defender_DisableBehaviorMonitoring": {
+        "status": "NOT_FOUND"
+    },
+    "Firewall_DomainProfile_EnableFirewall": {
+        "status": "FOUND",
+        "value": 1,
+        "type": 4
+    },
+    "Firewall_PrivateProfile_EnableFirewall": {
+        "status": "FOUND",
+        "value": 1,
+        "type": 4
+    },
+    "Firewall_PublicProfile_EnableFirewall": {
+        "status": "FOUND",
+        "value": 1,
+        "type": 4
+    },
+    "UAC_EnableLUA": {
+        "status": "FOUND",
+        "value": 1,
+        "type": 4
+    },
+    "UAC_ConsentPromptBehaviorAdmin": {
+        "status": "FOUND",
+        "value": 5,
+        "type": 4
+    },
+    "Shell_Userinit": {
+        "status": "FOUND",
+        "value": "C:\\windows\\system32\\userinit.exe,",
+        "type": 1
+    },
+    "Shell_Shell": {
+        "status": "FOUND",
+        "value": "explorer.exe",
+        "type": 1
+    }
+}

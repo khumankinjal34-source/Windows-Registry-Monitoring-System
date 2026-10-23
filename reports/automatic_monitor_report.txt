@@ -1,0 +1,9 @@
+
+
+=======================================================
+WINDOWS REGISTRY CHANGE ALERT
+Check time: 2026-10-18 12:37:46
+=======================================================
+NEW | HKCU_Run | MicrosoftEdgeAutoLaunch_508F0223890F0146111FDC6CBDB0C877 | Data: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --win-session-start
+NEW | HKCU_Run | MicrosoftEdgeAutoLaunch_9EE9EDED5640109143105622664B9E7A | Data: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --win-session-start
+MODIFIED | HKCU_Run | Microsoft.Lists | Previous: C:\Program Files\Microsoft OneDrive\26.178.0913.0007\OneDrive.Sync.Service.exe | Current: C:\Program Files\Microsoft OneDrive\26.183.0920.0005\OneDrive.Sync.Service.exe

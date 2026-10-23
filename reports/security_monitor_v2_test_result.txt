@@ -1,0 +1,7 @@
+WINDOWS SECURITY SETTINGS MONITOR V2 — TEST RESULT
+Date: 2026-10-20
+Result: PASS
+Reference: security_settings_reference_v2_corrected.json
+Findings: No differences detected between the selected current Registry settings and the reference.
+Defender values: Three values returned NOT_FOUND; this does not prove Defender is disabled or enabled.
+Scope: Selected Registry settings only; not a complete security audit.

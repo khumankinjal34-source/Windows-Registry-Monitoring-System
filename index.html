@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Windows Registry Change Monitoring System</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f8fb;
+  color: #172b3a;
+  line-height: 1.6;
+}
+header, .hero, footer {
+  background: #173b57;
+  color: white;
+  padding: 22px 7%;
+}
+header { font-weight: bold; }
+.hero { padding-top: 55px; padding-bottom: 60px; }
+.hero h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.15; }
+.hero p { max-width: 700px; color: #e0edf4; font-size: 18px; }
+.tag {
+  display: inline-block;
+  margin: 5px;
+  padding: 6px 12px;
+  border: 1px solid #a9c8dc;
+  border-radius: 20px;
+  font-size: 13px;
+}
+main { max-width: 1100px; margin: auto; padding: 30px 22px 55px; }
+.notice {
+  background: #fff4d9;
+  border-left: 5px solid #c58a25;
+  padding: 16px;
+  border-radius: 8px;
+}
+section { margin-top: 38px; }
+h2 { color: #173b57; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.card {
+  background: white;
+  padding: 22px;
+  border: 1px solid #d9e4ec;
+  border-radius: 12px;
+}
+.card h3 { margin-top: 0; color: #173b57; }
+.steps { padding-left: 25px; }
+.steps li { margin-bottom: 12px; }
+footer { font-size: 13px; }
+</style>
+</head>
+<body>
+
+<header>SECURITY PROJECT SHOWCASE | UNIFIED MENTOR</header>
+
+<div class="hero">
+  <p>PYTHON · WINDOWS SECURITY · MONITORING</p>
+  <h1>Windows Registry Change Monitoring System</h1>
+  <p>A defensive security project that compares Windows Registry snapshots, identifies unexpected changes, and reviews selected security settings.</p>
+  <span class="tag">Python-based</span>
+  <span class="tag">Baseline Comparison</span>
+  <span class="tag">Integrity Checking</span>
+  <span class="tag">Security Review</span>
+</div>
+
+<main>
+  <div class="notice">
+    <strong>Important demonstration notice:</strong>
+    This website explains the project and its recorded results.
+    It does not access your computer or perform live Registry
+    monitoring in the browser. The Python monitoring tool runs
+    locally on an authorized Windows system.
+  </div>
+
+  <section>
+    <h2>1. Project Overview</h2>
+    <p>
+      The Windows Registry stores configuration information used by
+      Windows and installed applications. Unexpected changes to
+      selected Registry entries may require investigation.
+      This project helps inspect changes by comparing saved
+      reference data with current results.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>Change Comparison</h3>
+        <p>Compares Registry snapshots to identify new, removed,
+        or modified entries in the selected scope.</p>
+      </div>
+      <div class="card">
+        <h3>Integrity Checking</h3>
+        <p>Uses reference information and integrity checks to
+        help identify changes in selected files or artifacts.</p>
+      </div>
+      <div class="card">
+        <h3>Security Settings Review</h3>
+        <p>Checks selected Windows security-related Registry
+        values and reports observed results.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Project Workflow</h2>
+    <ol class="steps">
+      <li><strong>Capture baseline:</strong> Save selected Registry values as a reference.</li>
+      <li><strong>Collect current data:</strong> Read the selected values again.</li>
+      <li><strong>Compare snapshots:</strong> Identify differences between the two sets of data.</li>
+      <li><strong>Review the report:</strong> Investigate reported changes before taking action.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>3. Testing and Verification</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Test Scripts</h3>
+        <p>The project includes tests for comparison logic,
+        integrity detection, error handling, and security
+        settings comparison.</p>
+      </div>
+      <div class="card">
+        <h3>Project Evidence</h3>
+        <p>Supporting files include Python scripts, reference
+        data, reports, screenshots, documentation, and a
+        project presentation.</p>
+      </div>
+    </div>
+    <p><em>Refer to the repository's test files and original
+    terminal outputs to verify the actual test results.
+    This website does not run the tests.</em></p>
+  </section>
+
+  <section>
+    <h2>4. Tools and Technologies</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Technologies</h3>
+        <p>Python, Windows Registry access, JSON reference data,
+        terminal-based testing, and text reports.</p>
+      </div>
+      <div class="card">
+        <h3>Security Concepts</h3>
+        <p>Baseline comparison, integrity monitoring, selected
+        autorun locations, and security configuration review.</p>
+      </div>
+      <div class="card">
+        <h3>Responsible Use</h3>
+        <p>Designed for authorized defensive monitoring.
+        Findings should be verified before action is taken.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Project Structure</h2>
+    <ul>
+      <li><strong>code/</strong> — Monitoring scripts and reference files</li>
+      <li><strong>tests/</strong> — Test scripts</li>
+      <li><strong>screenshots/</strong> — Project evidence</li>
+      <li><strong>report/ and reports/</strong> — Documentation and report artifacts</li>
+      <li><strong>README and presentation</strong> — Project overview and presentation material</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. About the Author</h2>
+    <p><strong>Kinjal Khuman</strong></p>
+    <p>Developed as part of the Unified Mentor learning experience.</p>
+  </section>
+</main>
+
+<footer>
+  Windows Registry Change Monitoring System — Project Demonstration
+  <br>
+  Informational website only. Live Registry monitoring runs locally
+  on an authorized Windows computer.
+</footer>
+
+</body>
+</html>
